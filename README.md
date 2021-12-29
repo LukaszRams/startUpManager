@@ -32,4 +32,4 @@
         
 4. Build your application
 
-        >>> pyinstaller -F --specpath=./startUpManager/build --workpath=./startUpManager/build --distpath=. startUpManager.py
+        >>> pyinstaller -F --specpath=./startUpManager/build --workpath=./startUpManager/build --distpath=. --uac-admin startUpManager.py
